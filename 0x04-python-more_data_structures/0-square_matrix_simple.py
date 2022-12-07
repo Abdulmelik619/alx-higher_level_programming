@@ -1,7 +1,3 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    matrix2=matrix
-    for i in range(len(matrix)):
-        for j in range(len(matrix[i])):
-            matrix2[i][j]=matrix[i][j]**2
-    return matrix2
+    return [[y ** 2 for y in x] for x in matrix]
