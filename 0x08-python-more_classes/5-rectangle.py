@@ -58,6 +58,7 @@ class Rectangle:
                 rect.append('\n')
         return ("".join(rect))
     def __repr__(self):
-        return "Rectangle(" + str(self.__width) + "," + str(self.__height) ")"
+        rectan = "Rectangle(" + str(self.__width) + "," +str(self.__height)+")"
+        return rectan
     def __del__(self):
         print("Bye rectangle...")
